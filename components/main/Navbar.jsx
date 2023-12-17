@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="  w-full bg-white z-40">
-      <div className="menu fixed z-40 bg-white  w-full md:px-8  py-3 drop-shadow-sm  flex items-center justify-between ">
+      <div className="menu text-mydark fixed z-40 bg-white  w-full md:px-8  py-3 drop-shadow-sm  flex items-center justify-between ">
         <div className=" pl-4">
           <h2 className=" text-xl font-bold">Nabin Logo</h2>
         </div>
