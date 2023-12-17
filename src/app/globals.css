@@ -25,3 +25,73 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.slick-dots li.slick-active button::before {
+  color: #f39c12 !important;
+  font-size: 12px;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: rgb(24, 21, 21);
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  transform: translateY(-10px);
+}
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: black;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  transform: translateY(10px);
+}
+
+.crossHam {
+  width: 30px;
+  height: 3px;
+
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+  transform: rotate(60deg);
+}
+.crossHam::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+  transform: rotate(60deg);
+}
+.crossHam::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0 ease-in-out;
+  transform: rotate(-deg);
+}
