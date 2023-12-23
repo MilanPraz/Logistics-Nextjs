@@ -5,10 +5,10 @@ import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className=" bg-[#38315a] h-72">
-      <section className=" flex justify-around">
+    <footer className=" bg-[#38315a] h-full md:h-72">
+      <section className=" flex px-8 flex-col md:flex-row justify-around">
         <div>
-          <h2>Nabin Logo</h2>
+          <h2 className=" text-white py-4">Nabin Logo</h2>
         </div>
         <div className=" flex flex-col ">
           <h2 className=" text-white text-3xl font-semibold my-4">
@@ -53,7 +53,7 @@ function Footer() {
       </section>
       <section className=" mt-8">
         <hr className=" h-[0.5px] w-full bg-slate-400" />
-        <p className=" text-center text-gray-300 my-4 font-semibold">
+        <p className=" text-center text-gray-300 py-4 font-semibold">
           Copyright All Rights Reserved 2024 | Nabin Logistics
         </p>
       </section>
