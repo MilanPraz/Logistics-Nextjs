@@ -21,15 +21,15 @@ function Footer() {
             </li>
             <li className=" flex items-center  text-myText font-semibold gap-2">
               <FaPhoneAlt className=" text-xl text-white" />
-              +977-1-5986423
+              +977-9841800224
             </li>
             <li className=" flex items-center  text-myText font-semibold gap-2">
               <FaWhatsapp className=" text-xl text-white" />
-              +977-985454215
+              +977-9841800224
             </li>
             <li className=" flex items-center  text-myText font-semibold gap-2">
               <MdEmail className=" text-xl text-white" />
-              info@nabinlogistics.com.np
+              nabinraut.nkr@gmail.com
             </li>
           </ul>
         </div>
