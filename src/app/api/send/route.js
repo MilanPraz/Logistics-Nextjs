@@ -18,7 +18,7 @@ export async function POST(req) {
 
     var mailOptions = {
       from: email,
-      to: "mln.praz12@gmail.com",
+      to: "nabinraut.nkr@gmail.com",
       subject: subject,
       phone: contact,
       email: email,
