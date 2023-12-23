@@ -20,7 +20,7 @@ function Myform() {
       .post("/api/send", data)
       .then((res) => {
         reset();
-        // console.log(res.data);
+        console.log(res.data);
 
         Swal.fire({
           position: "top",

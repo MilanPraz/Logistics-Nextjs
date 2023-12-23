@@ -15,10 +15,11 @@ export async function POST(req) {
         pass: process.env.MAIL_PASS,
       },
     });
+    // to: "nabinraut.nkr@gmail.com",
 
     var mailOptions = {
       from: email,
-      to: "nabinraut.nkr@gmail.com",
+      to: "mln.praz12@gmail.com",
       subject: subject,
       phone: contact,
       email: email,
@@ -35,8 +36,9 @@ export async function POST(req) {
       return NextResponse.json("success");
     });
 
-    return NextResponse.json({ msg: "hello" });
+    return NextResponse.json({ msg: "Success" });
   } catch (err) {
+    console.log(err);
     return NextResponse.json({ msg: err.message }, { status: 500 });
   }
 }
